@@ -3,14 +3,8 @@ import './App.css'
 import Homepage from './pages/homepage.component'
 import { Switch, Route } from 'react-router-dom'
 
-const HatsPage = (props) => {
-  console.log(props)
-  return (<div>
-    <h1>
-      HATS PAGE
-    </h1>
-  </div>)
-}
+import ShopPage from './pages/shop/shop.component.jsx'
+
 /* exact disables the /，保护后面的route Switch make sure we only
 render the router that matched */
 /* link force to render rebuld the web application, but the route deoesn;t,
@@ -22,6 +16,7 @@ function App () {
       <Switch>
         <Route exact path='/' component={Homepage} />
         <Route path='/hats' component={HatsPage} />
+        
       </Switch>
 
     </div>
