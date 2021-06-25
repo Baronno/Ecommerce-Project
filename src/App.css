@@ -1,0 +1,9 @@
+/* add padding for the app */
+body {
+  font-family: 'open Sans Condensed';
+  padding: 20px
+}
+a{
+  text-decoration: none;
+  color: black
+}
