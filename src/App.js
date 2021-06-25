@@ -10,13 +10,13 @@ render the router that matched */
 /* link force to render rebuld the web application, but the route deoesn;t,
 it only determine which js component to render,  */
 /* history.push('/') with onclick event */
+// console.logt
 function App () {
   return (
     <div>
       <Switch>
         <Route exact path='/' component={Homepage} />
-        <Route path='/hats' component={HatsPage} />
-        
+        <Route path='/shop' component={ShopPage} />
       </Switch>
 
     </div>
