@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import ShopPage from './pages/shop/shop.component.jsx'
 import Header from './components/header/header.component'
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component'
 /* exact disables the /，保护后面的route Switch make sure we only
 render the router that matched */
 /* link force to render rebuld the web application, but the route deoesn;t,
@@ -18,6 +19,7 @@ function App () {
       <Switch>
         <Route exact path='/' component={Homepage} />
         <Route path='/shop' component={ShopPage} />
+        <Route path='/signin' component={SignInAndSignUpPage} />
       </Switch>
 
     </div>

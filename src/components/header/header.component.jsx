@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.style.scss'
 import { Link } from 'react-router-dom'
+// react unique synax
 import { ReactComponent as Logo } from '../../assests/crown.svg'
 const Header = () => (
   <div className='header'>
