@@ -1,9 +1,11 @@
+
+//can define the common color to reusable 
 $sub-color: grey;
 $main-color: black;
 
 @mixin shrinkLabel {
-  top: -14px;
-  font-size: 12px;
+  top: -20px;
+  font-size: 16px;
   color: $main-color;
 }
 
